@@ -1,0 +1,80 @@
+h1 {
+    color: blue;
+}
+
+div {
+
+    background-color: whitesmoke;
+
+}
+
+p {
+
+    font-size: x-large;
+
+}
+
+
+
+p {
+    color: rebeccapurple;
+}
+
+#comments {
+    background-color: yellow;
+}
+
+.alert {
+    text-align: center;
+    color: red;
+}
+
+p b {
+
+    color: red;
+
+}
+
+ul li b {
+
+    color: green;
+
+}
+
+p b {
+
+    color: red;
+
+}
+
+p>b {
+
+    color: red;
+
+}
+
+a {
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+li {
+    display: none;
+}
+
+li {
+    visibility: hidden;
+}
+
+h2 {
+    color: blue;
+    /* This is how to create single-line comment */
+}
+
+/* This is
+                    how to create
+                    a multi-line
+                    comment */
