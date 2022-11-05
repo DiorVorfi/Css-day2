@@ -1,168 +1,80 @@
-a[target] {
+h1 {
+    color: blue;
+}
+
+div {
+
+    background-color: whitesmoke;
+
+}
+
+p {
+
+    font-size: x-large;
+
+}
+
+
+
+p {
+    color: rebeccapurple;
+}
+
+#comments {
     background-color: yellow;
 }
 
-p[class="dog"] {
-    color: brown;
+.alert {
+    text-align: center;
+    color: red;
 }
 
-[class^="top"] {
-    background: yellow;
-}
+p b {
 
-.my-class {
-
-    font-size: 3em;
+    color: red;
 
 }
 
-.myClass {
+ul li b {
 
-    height: 30ex;
-
-}
-
-.myClass {
-
-    width: 120%;
+    color: green;
 
 }
 
-.class-name {
+p b {
 
-    width: 10vw;
-
-    height: 50vh;
+    color: red;
 
 }
 
-h2 {
+p>b {
 
-    font-family: Arial, Verdana, serif;
-
-}
-
-#normal {
-
-    font-style: normal;
+    color: red;
 
 }
 
-#italic {
-
-    font-style: italic;
-
+a {
+    display: block;
 }
 
-#oblique {
-
-    font-style: oblique;
-
+li {
+    display: inline;
 }
 
-p {
-
-    font-size: 14pt;
-
+li {
+    display: none;
 }
 
-h1 {
-
-    font-size: 240%;
-
+li {
+    visibility: hidden;
 }
 
 h2 {
-
-    font-size: 200%;
-
+    color: blue;
+    /* This is how to create single-line comment */
 }
 
-h3 {
-
-    font-size: 160%;
-
-}
-
-h4 {
-
-    font-size: 120%;
-
-}
-
-.class-name {
-
-    font-weight: bold;
-
-}
-
-h1 {
-
-    text-align: justify;
-
-}
-
-.class-name {
-
-    text-decoration: underline;
-
-}
-
-p {
-
-    word-spacing: 1em;
-    letter-spacing: 1em;
-    line-height: 150%;
-}
-
-p.one {
-    background-color: #eeeeee;
-    color: #666666;
-    text-shadow: 1px 1px 0px #000000;
-
-}
-
-p.intro:first-letter {
-    font-size: 200%;
-
-}
-
-p.intro:first-line {
-    font-weight: bold;
-
-}
-
-.upper {
-
-    text-transform: uppercase;
-
-}
-
-p {
-
-    text-indent: 20px;
-
-}
-
-@font-face {
-    font-family: 'CodingApocalypseFont';
-    src: url('fonts/codingapocalypse.eot');
-}
-
-body {
-
-    font-family: 'Chivo', sans-serif;
-
-}
-
-.class-name {
-
-    color: #f700ff;
-
-}
-
-.class-name {
-
-    background-color: rgb(255, 128, 0);
-
-}
+/* This is
+                    how to create
+                    a multi-line
+                    comment */
